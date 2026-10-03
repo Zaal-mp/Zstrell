@@ -1,3 +1,8 @@
+import { Playfair_Display, Inter } from "next/font/google";
+const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-serif", style: ["normal","italic"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
+import Navbar from "@/components/navbar";
+
 export default function DashboardLayout({
   children,
 }: {
@@ -6,9 +11,8 @@ export default function DashboardLayout({
   return (
     <html lang="en">
       <body>
-        {/* Layout UI */}
-        {/* Place children where you want to render a page or nested layout */}
-        <main>{children}</main>
+        <Navbar />
+        <main className="container-custom">{children}</main>
       </body>
     </html>
   )
