@@ -13,9 +13,11 @@ export default function DashboardLayout({
   return (
     <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
       <body>
+      <header>
         <Frame />
-        <main className="container-custom">{children}</main>
+        </header>
+        <main>{children}</main>
       </body>
     </html>
-  )
+  );
 }
