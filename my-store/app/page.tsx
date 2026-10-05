@@ -7,12 +7,12 @@ import Footer from "@/components/footer";
 export default function Home() {
   return (
    <div>
-    <div className="p-50 text-center flex-col">
+    <div className="p-10 md:p-20 text-center flex flex-col items-center">
       <p className="font-inter text-[11px] tracking-[0.25em] uppercase text-muted">COLLECTION N° 04</p>
-      <h1 className="font-serif text-[clamp(1.5rem,7vw,6rem)]">SHADE <em>defines</em> THE
+      <h1 className="font-serif text-[clamp(2rem,8vw,6rem)] leading-tight">SHADE <em>defines</em> THE
       SILHOUETTE</h1>
     </div>
-    <div className="flex flex-row justify-center gap-30 ">
+    <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20 px-6">
       <Product1 />
       <Product2 />
       <Product3 />
