@@ -1,6 +1,8 @@
 import Product1 from "@/components/product1";
 import Product2 from "@/components/product2";
 import Product3 from "@/components/product3";
+import Spec from "@/components/spec";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -14,6 +16,12 @@ export default function Home() {
       <Product1 />
       <Product2 />
       <Product3 />
+    </div>
+    <div>
+      <Spec />
+    </div>
+    <div>
+      <Footer />
     </div>
    </div>
   );
