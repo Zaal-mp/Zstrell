@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { getWhatsAppLink } from "@/components/whatsapp";
 
 export default function Product2() {
     return (
@@ -22,7 +23,9 @@ export default function Product2() {
             </div>
             <div className="flex flex-row justify-between">
                 <h1 className="font-serif text-l text-extrabold">$385</h1>
-                <h1 className="font-serif text-m ">ACQUIRE</h1>
+                <a href={getWhatsAppLink("Ether", "$385")} target="_blank" rel="noopener noreferrer" className="font-serif text-m">
+                    ACQUIRE
+                </a>
             </div>
         </div>
     );
