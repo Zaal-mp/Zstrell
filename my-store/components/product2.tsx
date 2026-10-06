@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Product2() {
     return (
-        <div className="w-full max-w-[360px] flex flex-col gap-1">
+        <div className="w-full max-w-[300px] flex flex-col gap-1">
             <div className=" flex flex-row justify-between">
                 <p className="font-inter text-[11px] tracking-[0.25em] uppercase">MODEL // 02</p>
                 <p className="font-inter text-[11px] tracking-[0.25em] uppercase">LUMINA SERIES</p>
