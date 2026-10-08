@@ -12,7 +12,7 @@ export default function Home() {
       <h1 className="font-serif text-[clamp(2rem,8vw,6rem)] leading-tight">SHADE <em>defines</em> THE
       SILHOUETTE</h1>
     </div>
-    <div className="flex flex-col lg:flex-row justify-center items-center gap-20 md:gap-20 px-6">
+    <div className="flex flex-col lg:flex-row justify-center items-center gap-20 md:gap-20 lg:gap-40 px-6">
       <Product1 />
       <Product2 />
       <Product3 />
